@@ -7,6 +7,7 @@ var myQuotes =
  "New opinions are always suspected, and usually opposed, without any other reason but because they are not common.",
  "There is more stupidity than hydrogen in the universe, and it has a longer shelf life.",
  "Rock journalism is people who can't write interviewing people who can't talk for people who can't read.",
+ "Some people crave baseball...I find this unfathomable, but I can easily understand why a person could get excited about playing the bassoon.",
  "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
  "Insanity: doing the same thing over and over again and expecting different results.",
  "Try not to become a man of success, but rather try to become a man of value.",
@@ -20,6 +21,7 @@ var myQuotes =
  "My name is Jeff.",
  "[Dr. Pepper] - It's an intellectual drink for the chosen ones.",
  "There is no end though there is a start in space. — Infinity. It has own power, it ruins, and it goes though there is a start also in the star. — Finite. Only the person who was wisdom can read the most foolish one from the history. The fish that lives in the sea doesn't know the world in the land. It also ruins and goes if they have wisdom. It is funnier that man exceeds the speed of light than fish start living in the land. It can be said that this is an final ultimatum from the god to the people who can fight.",
+ "This must have been the choice of Steins;Gate.",
  "The only thing we have to fear is fear itself.",
  "Democracy cannot succeed unless those who express their choice are prepared to choose wisely. The real safeguard of democracy, therefore, is education.",
  "Success is not final, failure is not fatal: it is the courage to continue that counts.",
@@ -42,7 +44,23 @@ var myQuotes =
  "YOU MUST CONSTRUCT ADDITIONAL PYLONS",
  "NOT ENOUGH MINERALS",
  "YOU REQUIRE MORE VESAPANE GAS",
- "PAGE RESTRICTED"
+ "PAGE RESTRICTED",
+ "I REJECT MY HUMANITY, JOJO!",
+ "BUT IT WAS ME, DIO!",
+ "MISTER JOESTAAAARǃǃ",
+ "OBJECTION!",
+ "HOLD IT!",
+ "GOTCHA!",
+ "I object! That was... objectionable!",
+ "Um, Nick? You know that problem of yours? That problem where you present evidence that makes no sense? You're doing it again.",
+ "This piece of evidence indeed seems to contradict something... like your outward appearance of mental sanity!!!",
+ "Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality.",
+ "You either die a hero or you live long enough to see yourself become the villain.",
+ "There's many who tried to prove that they're faster / But they didn't last and they died as they tried!",
+ "From desert plains I bring you love...",
+ "You know I'm born to lose, and gambling's for fools / But that's the way I like it baby / I don't wanna live forever!",
+ "Mental wounds not healing / Life's a bitter shame / I'm goin' off the rails on a crazy train",
+ "Nonagon infinity opens the door"
 ];
 
 var myQuotesAuthors =
@@ -52,6 +70,7 @@ var myQuotesAuthors =
  "Socrates",
  "John Locke",
  "John Locke",
+ "Frank Zappa",
  "Frank Zappa",
  "Frank Zappa",
  "Aristotle",
@@ -67,6 +86,7 @@ var myQuotesAuthors =
  "Greg Jenko, 22 Jump Street",
  "Rintaro Okabe, Steins;Gate",
  "Intro Text, Steins;Gate",
+ "Rintaro Okabe, Steins;Gate",
  "Franklin D. Roosevelt",
  "Franklin D. Roosevelt",
  "Winston Churchill",
@@ -89,7 +109,23 @@ var myQuotesAuthors =
  "Starcraft",
  "Starcraft",
  "Starcraft",
- "Millennium High School"
+ "Millennium High School",
+ "Dio Brando, JoJo's Bizarre Adventure",
+ "Dio Brando, JoJo's Bizarre Adventure",
+ "Speedwagon, JoJo's Bizarre Adventure",
+ "Phoenix Wright, Phoenix Wright: Ace Attorney",
+ "Phoenix Wright, Phoenix Wright: Ace Attorney",
+ "Phoenix Wright, Phoenix Wright: Ace Attorney",
+ "Miles Edgeworth, Phoenix Wright: Ace Attorney",
+ "Maya Fey, Phoenix Wright: Ace Attorney",
+ "Judge, Phoenix Wright: Ace Attorney",
+ "Queen - Bohemian Rhapsody",
+ "Harvey Dent, The Dark Knight",
+ "Judas Priest - Hell Bent for Leather",
+ "Judas Priest - Desert Plains",
+ "Motörhead - Ace of Spades",
+ "Ozzy Osbourne - Crazy Train",
+ "King Gizzard and the Lizzard Wizard - Robot Stop"
 ];
 
 var randomQuote = myQuotes[Math.floor(Math.random() * myQuotes.length)];
