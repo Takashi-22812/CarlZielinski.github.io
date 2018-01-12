@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="../css/gaming.css">
+<link rel="stylesheet" type="text/css" href="../css/school.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style id="parallaxStyling" type="text/css">
+
+	body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.schoolax1, .schoolax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .schoolax1 {
+ 	background-image: url("../img/school/school1.jpg");
+  	min-height: 100%;
+ 	}
+ .schoolax2 {
+ 	background-image: url("../img/school/school2.jpg");
+ 	min-height: 100%;
+ }
+ /* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .schoolax1, .schoolax2 {
+        background-attachment: scroll;
+    }
+}
+</style>
 <head>
-	<title></title>
+	<title>CJZ - School</title>
 </head>
 <body>
-    <div id="schoolSiteNavi" class="center">
-    <p class="paraHead">Site Navigation
-    <a href="../index.html" class="buttonBlack">Home</a>
-    <a href="../weeb/weeb.html" class="buttonBlack">Anime</a>
-    <a href="../gaming/gaming.html" class="buttonBlack">Gaming and Tech</a>
-    <a href="../music/music.html" class="buttonBlack">Music</a>
-    <a href="../school/school.html" class="buttonBlack">School</a>
-    </p>
-  </div>
+
+<div id="schoolSiteNavi" class="center">
+	<p class="paraHead">Site Navigation
+	<a href="../index.html" class="buttonBlack">Home</a>
+	<a href="../weeb/weeb.html" class="buttonBlack">Anime</a>
+	<a href="../gaming/gaming.html" class="buttonBlack">Gaming and Tech</a>
+	<a href="../music/music.html" class="buttonBlack">Music</a>
+	<a href="../school/school.html" class="buttonBlack">School</a>
+	</p>
+</div>
+
+<div id="schoolax1" class="schoolax1">
+	<h1 id="schoolHeader" class="whiteHeader">School</h1>
+</div>
+
+<div id="schoolax2" class="schoolax2">
+	<br></br>
+	<br></br>
+	<div class="center">
+		<p class="sectionHead">Projects</p>
+		<a href="APWHPeriod4Map/apwhperiod4map.html" class="buttonBlack">APWH Period 4 Map</a>
+	</div>
+</div>
+
 </body>
 </html>

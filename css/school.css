@@ -151,3 +151,9 @@ h3 {
   width: 98%;
   text-align: center;
 }
+
+
+.sectionHead {
+  font-size: 48px;
+  font-weight: bold;
+}
