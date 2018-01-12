@@ -151,3 +151,11 @@ h3 {
   width: 98%;
   text-align: center;
 }
+
+.whiteMapHeader {
+  color: white;
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-align: center;
+}
